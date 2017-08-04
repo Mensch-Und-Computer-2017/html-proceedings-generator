@@ -1,0 +1,55 @@
+[{
+    "conference": "MCI",
+    "id": "MCI-FULL",
+    "position": 1,
+    "title": "Langbeiträge",
+    "sessions": ["MCI-SE01", "MCI-SE02", "MCI-SE03", "MCI-SE04", "MCI-SE05", "MCI-SE06", "MCI-SE07"]
+  }, {
+    "conference": "MCI",
+    "id": "MCI-POSTER",
+    "position": 2,
+    "title": "Posterbeiträg",
+    "sessions": ["MCI-PosterSession"]
+  }, {
+    "conference": "MCI",
+    "id": "MCI-WORKSHOPS",
+    "position": 3,
+    "title": "Workshops",
+    "sessions": ["MCI-WS01", "MCI-WS02", "MCI-WS03", "MCI-WS04", "MCI-WS05", "MCI-WS06", "MCI-WS07", "MCI-WS08", "MCI-WS09", "MCI-WS10", "MCI-WS11", "MCI-WS12", "MCI-WS13", "MCI-WS14", "MCI-WS15", "MCI-WS16", "MCI-WS17"]
+  }, {
+    "conference": "MCI",
+    "id": "MCI-DEMOS",
+    "position": 4,
+    "title": "Interaktive Demos",
+    "sessions": ["MCI-DEMO"]
+  }, {
+    "conference": "MCI",
+    "id": "MCI-TUTORIALS",
+    "position": 5,
+    "title": "Tutorials",
+    "sessions": []
+  }, {
+    "conference": "UP",
+    "id": "UP-FULL",
+    "position": 6,
+    "title": "Langbeiträge",
+    "sessions": ["UP-SE01", "UP-SE02", "UP-SE03", "UP-SE04", "UP-SE05", "UP-SE06", "UP-SE07", "UP-SE08", "UP-CP01"]
+  }, {
+    "conference": "UP",
+    "id": "UP-WORKSHOPS",
+    "position": 7,
+    "title": "Workshops",
+    "sessions": ["UP-WS01", "UP-WS02", "UP-WS03", "UP-WS04", "UP-WS05", "UP-WS06", "UP-WS07", "UP-WS08", "UP-WS09", "UP-WS10", "UP-WS11", "UP-WS12", "UP-WS13", "UP-WS14", "UP-WS15"]
+  }, {
+    "conference": "UP",
+    "id": "UP-TUTORIALS",
+    "position": 8,
+    "title": "Tutorials",
+    "sessions": ["UP-TUT01", "UP-TUT02", "UP-TUT03", "UP-TUT04", "UP-TUT05", "UP-TUT06", "UP-TUT07"]
+  }, {
+    "conference": "UP",
+    "id": "UP-YP",
+    "position": 9,
+    "title": "Young Professionals",
+    "sessions": ["UP-YP01", "UP-YP02"]
+  }]

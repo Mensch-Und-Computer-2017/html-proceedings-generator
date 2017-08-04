@@ -1,0 +1,22 @@
+{
+  "name": "html-proceedings-generator",
+  "version": "0.0.1",
+  "description": "A node.js tool to generate html proceedings from ConfTool",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuildhtml": "rm -rf ./Konferenzband-MUC-2017-USB",
+    "buildhtml": "./build.js -i ./submissions.xml -p ./proceedings -s ./html-viewer -t ./toc-muc-2017.json -o ./Konferenzband-MUC-2017-USB",
+    "postbuildhtml": "nohup xdg-open ./Konferenzband-MUC-2017-USB/start.html &",
+    "postinstall": "chmod +x build.js"
+  },
+  "author": "Alexander Bazo <alexanderbazo@googlemail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "conftooljs": "git+https://github.com/Mensch-Und-Computer-2017/conftooljs.git",
+    "escape-html": "^1.0.3",
+    "fs-extra": "^4.0.1",
+    "xml2js": "^0.4.17"
+  }
+}

@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+# input
+submissions.xml
+papers
+template
+
+# output
+out
+Konferenzband-MUC-2017-USB
+nohup.out

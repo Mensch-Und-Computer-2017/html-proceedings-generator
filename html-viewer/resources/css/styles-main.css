@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans'), local('OpenSans'), url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+html,
+body {
+    height: 98%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+#main {
+	overflow: hidden;
+}
+
+#sidebar-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 1%;
+    height: 96%;
+    width: 13%;
+    border-style: none;
+    background-color: #FFF;
+}
+
+#content-frame {
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    margin: 0;
+    padding: 1%;
+    height: 96%;
+    width: 83%;
+    border-style: none;
+    background-color: #FFF;
+}
+
+#sidebar .muc-logo {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#sidebar ul li a:hover {
+    cursor: pointer;
+    color: #5064aa;
+}
+
+#sidebar h1 {
+    color: #252d3d;
+}
+
+#content h1, h2, h3, h4 {
+    color: #252d3d;
+}
+
+#content h3,h4 {
+	margin-top: 3em;
+}
+
+#content h2 {
+    color: #5064aa;
+}
+
+#paper .paper-info {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 5%;
+    background-color: rgba(255,255,255,.75);
+}
+
+.toc-entry {
+	display: block;
+	width: 90%;
+	margin-bottom: 1em;
+}
+
+.toc-entry .title {
+    display: block;
+    font-size: 1.2em;
+    line-height: 2em;
+    color: #5064aa;
+}
+
+.toc-entry .authors {
+    display: block;
+    font-size: 1em;
+    color: #252d3d;
+    font-style: italic;
+}
+
+.toc-entry a {
+    text-decoration: none;
+    color: #252d3d;
+}
+
+.toc-entry a:hover {
+    cursor: pointer;
+}
+
+.file-pdf {
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar-button {
+    display: block;
+    height: 13px;
+    border-radius: 0px;
+    background-color: #252d3d;
+}
+
+ ::-webkit-scrollbar-button:hover {
+    background-color: #252d3d;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #d3d724;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background-color: #d3d724;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #eeefe1;
+}
+
+ ::-webkit-scrollbar-track:hover {
+    background-color: #eeefe1;
+}
+
+ ::-webkit-scrollbar {
+    width: 13px;
+}
