@@ -8,7 +8,7 @@
     "conference": "MCI",
     "id": "MCI-POSTER",
     "position": 2,
-    "title": "Posterbeiträg",
+    "title": "Kurzbeiträge",
     "sessions": ["MCI-PosterSession"]
   }, {
     "conference": "MCI",
