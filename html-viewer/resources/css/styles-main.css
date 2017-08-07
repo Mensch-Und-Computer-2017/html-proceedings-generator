@@ -50,6 +50,10 @@ body {
     width: 80%;
 }
 
+#sidebar a {
+    text-decoration: none;
+}
+
 #sidebar ul {
     width: 90%;
     word-wrap: break-word;
