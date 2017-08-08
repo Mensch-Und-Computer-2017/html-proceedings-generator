@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuildhtml": "rm -rf ./Konferenzband-MUC-2017-USB",
     "buildhtml": "./build.js -i ./submissions.xml -p ./proceedings -s ./html-viewer -t ./toc-muc-2017.json -o ./Konferenzband-MUC-2017-USB",
-    "postbuildhtml": "nohup xdg-open ./Konferenzband-MUC-2017-USB/start.html &",
+    "postbuildhtml": "nohup xdg-open ./Konferenzband-MUC-2017-USB/Start.html &",
     "postinstall": "chmod +x build.js"
   },
   "author": "Alexander Bazo <alexanderbazo@googlemail.com>",
