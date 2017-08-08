@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="../../resources/css/styles-main.css">
+    <link rel="stylesheet" href="../../resources/css/fontello.css">
+    <link rel="stylesheet" href="../../resources/css/fontello-ie7.css">
+</head>
+
+<body id="paper">
+    <object class="file-pdf" data="../../{{PATH}}" type="application/pdf">
+        <a href="../../{{PATH}}" target="_blank">PDF extern öffnen</a>
+    </object>
+    <div class="paper-info">
+        <a href="../../{{VIDEOPATH}}" target="_blank" class="hidden"><i class="icon icon-video"></i></a>
+        <a href="../../{{PATH}}" target="_blank" download><i class="icon icon-file-pdf"></i></a>
+        <div class="paper-data">
+            <span class="session">Vorwort</span>: <span class="title">{{TITLE}}</span>
+            <br />
+            <span class="authors">{{AUTHORS}}</span>
+        </div>
+    </div>
+</body>
+
+</html>
