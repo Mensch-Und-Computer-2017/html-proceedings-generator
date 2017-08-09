@@ -113,8 +113,15 @@ body {
     font-weight: bold;
 }
 
+
+#content .intro ul {
+    list-style-type: square;
+}
+
+
 #content .intro a {
     color: #5064aa;
+    text-decoration: none;
 }
 
 #content .whitespace {
