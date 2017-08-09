@@ -113,6 +113,10 @@ body {
     font-weight: bold;
 }
 
+#content .intro a {
+    color: #5064aa;
+}
+
 #content .whitespace {
     display: block;
     height: 50%;
